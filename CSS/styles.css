@@ -12,8 +12,10 @@ td
     border: 1px solid white;
     padding: 5px;
 }
-.header
+th
 {
+    border: 1px solid white;
+    padding: 5px;
     background-color: darkred;
 }
 .title
