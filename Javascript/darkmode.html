@@ -8,20 +8,20 @@
         <button id="dark"></button>
         <script>
             let dark = false;
-            document.querySelector('dark').innerHTML = "Dark mode: OFF";
+            document.querySelector('#dark').innerHTML = "Dark mode: OFF";
             let body = document.querySelector('body');
 
             document.querySelector('#dark').onclick = function() {
                 if (dark == false)
                 {
                     body.style.backgroundColor = "rgb(53, 53, 53)";
-                    document.querySelector('dark').innerHTML = "Dark mode: ON";
+                    document.querySelector('#dark').innerHTML = "Dark mode: ON";
                     dark = true;
                 }
                 else
                 {
                     body.style.backgroundColor = "white";
-                    document.querySelector('dark').innerHTML = "Dark mode: OFF";
+                    document.querySelector('#dark').innerHTML = "Dark mode: OFF";
                     dark = false;
                 }
             }
