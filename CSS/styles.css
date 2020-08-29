@@ -1,0 +1,20 @@
+body
+{
+    background-color: black;
+}
+.title
+{
+    text-align: center;
+    font-family: lucida sans unicode;
+}
+.red
+{
+    color: red;
+}
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
