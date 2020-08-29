@@ -7,8 +7,20 @@
     <body>
         <button id="dark">Dark mode: + 'name'</button>
         <script>
-            document.querySelector('#dark').onclick = function() {
-                document.querySelector('body').style.backgroundColor = 'rgb(53, 53, 53)';
+            let dark = false;
+            if (dark === false)
+            {
+                dark = true;
+                document.querySelector('#dark').onclick = function() {
+                    document.querySelector('body').style.backgroundColor = 'rgb(53, 53, 53)';
+                }
+            }
+            else
+            {
+                dark = false;
+                document.querySelector('#dark').onclick = function() {
+                    document.querySelector('body').style.backgroundColor = 'white';
+                }
             }
             
         </script>
