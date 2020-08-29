@@ -8,7 +8,10 @@
         <button id="dark">Dark mode: + 'name'</button>
         <script>
             let dark = false;
-            document.querySelector('#dark').onclick = darkmode(dark);
+            while (dark === false || dark === true)
+            {
+                document.querySelector('#dark').onclick = darkmode(dark);
+            }
             function darkmode(dark)
             {
                 if (dark === false)
