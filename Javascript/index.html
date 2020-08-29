@@ -7,6 +7,10 @@
             function greet()
             {
                 let name = document.querySelector('#name').value;
+                if (name === '')
+                {
+                    name = 'world';
+                }
                 alert('Hello, ' + name + '!');
             }
         </script>
