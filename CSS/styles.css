@@ -4,7 +4,11 @@ body
 }
 table
 {
-    border: 1px solid white
+    border: 1px solid white;
+}
+td
+{
+    border: 1px solid white;
 }
 .title
 {
