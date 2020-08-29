@@ -10,18 +10,17 @@
             let dark = false;
             while (dark === false || dark === true)
             {
-                if (dark === false)
-                {
-                    document.querySelector('#dark').onclick = function() {
-                    body.style.backgroundColor = "rgb(53, 53, 53)";
-                    dark = true;
-                }
-                else
-                {
-                    document.querySelector('#dark').onclick = function() {
-                    body.style.backgroundColor = "white";
-                    dark = false;
-                }
+                document.querySelector('#dark').onclick = function() {
+                    if (dark === false)
+                    {
+                        body.style.backgroundColor = "rgb(53, 53, 53)";
+                        dark = true;
+                    }
+                    else
+                    {
+                        body.style.backgroundColor = "white";
+                        dark = false;
+                    }
             }
         </script>
     </body>
