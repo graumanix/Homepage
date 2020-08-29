@@ -11,6 +11,10 @@ body
 {
     color: red;
 }
+.white
+{
+    color:white;
+}
 .center
 {
     display: block;
