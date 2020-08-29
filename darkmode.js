@@ -5,7 +5,7 @@ let dark = false;
     document.querySelector('#dark').onclick = function() {
         if (dark == false)
         {
-            body.style.backgroundColor = "rgb(53, 53, 53)";
+            body.style.backgroundColor = "rgb(70, 70, 80)";
             document.querySelector('#dark').innerHTML = "Light";
             document.querySelector('#dark').className = "btn btn-light"
             document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-dark bg-dark"
