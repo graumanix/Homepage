@@ -1,4 +1,5 @@
 let dark = false;
+            let nav = document.getElementById("MyElement"),
             let body = document.querySelector('body');
 
             document.querySelector('#dark').onclick = function() {
