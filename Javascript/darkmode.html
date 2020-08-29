@@ -17,10 +17,11 @@
                 }
                 else
                 {
+                    dark = false;
                     document.querySelector('body').style.backgroundColor = 'white';
                 }
             }
-            
+            document.querySelector('#dark').onclick = darkmode(dark);
         </script>
     </body>
 </html>
