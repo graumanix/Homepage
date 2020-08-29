@@ -4,10 +4,16 @@
     <head>
         <title>Hello!</title>
         <script>
-            alert('Hello!');
+            function greet()
+            {
+                alert('Hello!');
+            }
         </script>
     </head>
     <body>
-        Hello, world!!!
+        <form onsubmit="greet(); return false;">
+            <input type="text">
+            <input type="submit">
+        </form>
     </body>
 </html>
