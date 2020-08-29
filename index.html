@@ -40,6 +40,25 @@
             </div>
           </nav>
           <button type="button" class="btn btn-dark" id="dark">Dark</button>
+          <script>
+            let dark = false;
+            let body = document.querySelector('body');
+
+            document.querySelector('#dark').onclick = function() {
+              if (dark == false)
+              {
+                body.style.backgroundColor = "rgb(53, 53, 53)";
+                document.querySelector('#dark').innerHTML = "Dark mode: ON";
+                dark = true;
+              }
+              else
+              {
+                  body.style.backgroundColor = "rgb(220, 220, 220)";
+                  document.querySelector('#dark').innerHTML = "Dark mode: OFF";
+                  dark = false;
+              }
+            }
+          </script>
     </body>
     <footer>
         Project made for CS50x's Introduction to computer science.
