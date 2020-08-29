@@ -13,7 +13,7 @@ let dark = false;
         }
         else
         {
-            body.style.backgroundColor = "rgb(230, 230, 230)";
+            body.style.backgroundColor = "rgb(240, 240, 240)";
             document.querySelector('#dark').innerHTML = "Dark";
             document.querySelector('#dark').className = "btn btn-dark"
             document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-light bg-light"
