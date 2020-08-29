@@ -1,5 +1,6 @@
 let dark = false;
     let body = document.querySelector('body');
+    let footer = document.querySelector('body');
 
     document.querySelector('#dark').onclick = function() {
         if (dark == false)
@@ -12,7 +13,7 @@ let dark = false;
         }
         else
         {
-            body.style.backgroundColor = "rgb(220, 220, 220)";
+            body.style.backgroundColor = "rgb(230, 230, 230)";
             document.querySelector('#dark').innerHTML = "Dark";
             document.querySelector('#dark').className = "btn btn-dark"
             document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-light bg-light"
