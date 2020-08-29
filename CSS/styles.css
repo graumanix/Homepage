@@ -2,6 +2,10 @@ body
 {
     background-color: rgb(53, 53, 53);
 }
+table
+{
+    border: 1px solid white
+}
 .title
 {
     text-align: center;
