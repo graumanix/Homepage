@@ -1,8 +1,10 @@
 .right {
-    justify-content: center;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
     position: absolute;
     right: 10px;
     width: 50px;
-    height: 100px;
+    height: 30px;
     padding: 10px;
   }
