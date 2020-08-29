@@ -1,6 +1,5 @@
 .right {
-    text-align: center;
-    position: absolute;
+    position: relative;
     right: 5px;
     width: 50px;
     border: 1px solid purple;
