@@ -36,31 +36,11 @@
                     <a class="nav-link" href="https://github.com/graumanix">Github profile</a>
                   </li>
                 </li>
-                <button class="navbar-item" id ="dark">
-                  Dark mode: OFF
-                </button>
-                <script>
-                  let dark = false;
-                  let body = document.querySelector('body');
-      
-                  document.querySelector('#dark').onclick = function() {
-                      if (dark == false)
-                      {
-                          body.style.backgroundColor = "rgb(53, 53, 53)";
-                          document.querySelector('#dark').innerHTML = "Dark mode: ON";
-                          dark = true;
-                      }
-                      else
-                      {
-                          body.style.backgroundColor = "rgb(220, 220, 220)";
-                          document.querySelector('#dark').innerHTML = "Dark mode: OFF";
-                          dark = false;
-                      }
-                  }
-              </script>
               </ul>
             </div>
           </nav>
+          <button type="button" class="btn btn-light">Light</button>
+          <button type="button" class="btn btn-dark">Dark</button>
     </body>
     <footer>
         Project made for CS50x's Introduction to computer science.
