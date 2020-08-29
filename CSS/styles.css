@@ -5,6 +5,7 @@ body
 table
 {
     border: 1px solid white;
+    border-collapse: collapse;
 }
 td
 {
