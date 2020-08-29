@@ -22,3 +22,7 @@ body
     margin-right: auto;
     width: 50%;
 }
+p
+{
+    text-align: center;
+}
