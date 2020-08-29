@@ -12,6 +12,10 @@ td
     border: 1px solid white;
     padding: 5px;
 }
+.header
+{
+    background-color: darkred;
+}
 .title
 {
     text-align: center;
