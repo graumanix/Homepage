@@ -20,7 +20,7 @@ html, body {
 .push {
   text-align: center;
   vertical-align: text-bottom;
-  height: 50px;
+  height: 25px;
   margin-top: 0px;
   background-color: aqua;
 }
