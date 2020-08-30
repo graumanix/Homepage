@@ -23,7 +23,7 @@ body {
 }
 .container {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 .footer,
 .push {
