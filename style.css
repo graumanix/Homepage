@@ -21,7 +21,7 @@ html, body {
   left: 30px
 }
 .container {
-  flex-direction: row;
+  display: flex;
   justify-content: flex-start
 }
 .footer,
