@@ -33,7 +33,7 @@ function swapsheet(sheet)
 {
     document.getElementById('theme').setAttribute('href', sheet);
     localStorage.setItem("sheet", sheet);
-    dark = localStorage.getItem("dark");
+    localStorage.getItem("dark");
 
     if (dark == true)
     {
