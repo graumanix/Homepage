@@ -10,8 +10,6 @@ html, body {
   flex-wrap: wrap;
 }
 .containerbody {
-  height:75%;
-  width: 50%;
   display: inline-flex;
   flex-wrap: wrap;
 }
