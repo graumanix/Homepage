@@ -17,7 +17,6 @@ html, body {
 }
 .footer,
 .push {
-  display: flex;
   text-align: center;
   vertical-align: text-bottom;
   height: 50px;
