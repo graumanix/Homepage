@@ -10,7 +10,9 @@ html, body {
 .container {
   display: inline-flex;
   justify-content: flex-start;
-  background-color: rebeccapurple;
+}
+.item {
+  background-color: gray;
 }
 .wrapper {
   min-height: 100%;
