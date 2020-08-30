@@ -22,7 +22,7 @@ html, body {
 }
 .container {
   display: flex;
-  align-content: space-between;
+  align-content: space-evenly;
 }
 .footer,
 .push {
