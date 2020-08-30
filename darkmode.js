@@ -18,8 +18,17 @@ document.querySelector('#dark').onclick = function()
 }
 
 window.onload = _ => function()
-{}
-    document.getElementById('theme').setAttribute('href', 'darkmode.css');
-    localStorage.setItem("sheet", 'darkmode.css');
-    localStorage.getItem("sheet") || "default.css"
- );
+{
+    if (dark == false)
+    {
+        document.getElementById('theme').setAttribute('href', 'darkmode.css');
+        localStorage.setItem("sheet", 'darkmode.css');
+        dark = true;
+    }
+    else
+    {
+        document.getElementById('theme').setAttribute('href', 'light.css');
+        localStorage.setItem("sheet", 'light.css');
+        dark = false;
+    }
+}
