@@ -15,16 +15,12 @@ html, body {
 .containervideo {
   flex-basis: auto;
 }
-iframe {
-  width: max-content;
-}
 .title {
   padding: 20px;
   color:black;
 }
 .item {
   text-align: justify;
-  ;
   padding: 20px;
   background-color: rgb(220, 220, 230);
   color:black;
