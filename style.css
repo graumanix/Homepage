@@ -7,5 +7,6 @@
 }
 footer {
   text-align: center;
+  vertical-align: text-bottom;
   font-display: flex;
 }
