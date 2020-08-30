@@ -27,8 +27,8 @@ html, body {
 }
 .footer,
 .push {
-  text-align: center;
   vertical-align: text-bottom;
+  text-align: center;
   height: 80px;
   background-color: aqua;
 }
