@@ -18,4 +18,5 @@ html, body {
 .footer,
 .push {
   height: 50px;
+  background-color: aqua;
 }
