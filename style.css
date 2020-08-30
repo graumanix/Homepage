@@ -21,7 +21,6 @@ html, body {
   left: 30px
 }
 .container {
-  display: flex;
   justify-content: space-between;
 }
 .footer,
