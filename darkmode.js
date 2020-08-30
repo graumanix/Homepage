@@ -9,6 +9,7 @@ document.querySelector('#dark').onclick = function()
         document.getElementById('theme').setAttribute('href', 'darkmode.css');
         sessionStorage.setItem("sheet", 'darkmode.css');
         sessionStorage.setItem("dark", "0");
+        dark = sessionStorage.getItem("dark");
     }
     else if (dark == "0")
     {
@@ -17,6 +18,7 @@ document.querySelector('#dark').onclick = function()
         document.getElementById('theme').setAttribute('href', 'light.css');
         sessionStorage.setItem("sheet", 'light.css');
         sessionStorage.setItem("dark", "1");
+        dark = sessionStorage.getItem("dark");
     }
     else
     {
