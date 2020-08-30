@@ -17,6 +17,7 @@ html, body {
   padding: 20px;
 }
 .item {
+  flex-basis: auto;
   text-align: justify;
   padding: 20px;
   background-color: rgb(220, 220, 220);
