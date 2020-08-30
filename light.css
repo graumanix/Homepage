@@ -13,6 +13,7 @@ html, body {
   flex: 1 0 auto
 }
 iframe {
+  flex-direction: column;
   height: 100%;
 }
 .title {
