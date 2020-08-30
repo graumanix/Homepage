@@ -7,6 +7,9 @@ html, body {
   height: 100%;
   width: 100%;
 }
+em {
+  font:bold;
+}
 .containertitle {
   display: inline-flex;
 }
@@ -44,3 +47,4 @@ html, body {
   color: rgb(40, 40, 50);
   background-color: rgb(180, 180, 190);
 }
+
