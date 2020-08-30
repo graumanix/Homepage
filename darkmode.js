@@ -1,5 +1,7 @@
 document.querySelector('#dark').onclick = function() 
 {
+    dark = localStorage.getItem("sheet");
+    
     if(dark == null)
     {
         dark = true;
@@ -42,4 +44,3 @@ function swapsheet(sheet)
 }
 
 window.onload = _ => swapsheet(localStorage.getItem("sheet") || "default.css");
-window.onload = _ => localStorage.getItem("dark");
