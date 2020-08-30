@@ -1,6 +1,4 @@
 body {
-  height: 90%;
-  margin: 0;
   background-color: rgb(240,240,240);
 }
 html, body {
@@ -9,7 +7,7 @@ html, body {
 }
 .container {
   display: inline-flex;
-  justify-content: center;
+  justify-content: ;
 }
 .item {
   background-color: gray;
