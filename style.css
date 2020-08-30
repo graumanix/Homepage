@@ -7,7 +7,6 @@ html, body {
 }
 .container {
   display: inline-flex;
-  justify-content: ;
 }
 .item {
   background-color: gray;
