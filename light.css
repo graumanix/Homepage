@@ -16,24 +16,11 @@ em {
 .containerbody {
   flex: 2 0 auto;
 }
-.containerimg {
-  flex-basis: auto;
-  justify-content: center;
-}
 .containervideo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-img {
-  flex-basis: 50%;
-}
-.video {
-  display: block;
-  height: 300px;
-  width: 50%;
-}
-
 .title {
   padding: 20px;
   color:black;
