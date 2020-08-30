@@ -10,10 +10,10 @@ html, body {
   display: inline-flex;
 }
 .containerbody {
-  flex: 1 0 auto
+  flex: 1 0 auto;
 }
 .containervideo {
-  justify-content: center;
+  display: inline-flex;
 }
 .title {
   padding: 20px;
