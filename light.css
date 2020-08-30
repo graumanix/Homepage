@@ -16,7 +16,7 @@ em {
 .containerbody {
   flex: 2 0 auto;
 }
-.containerimg {
+#img {
   text-align: center;
 }
 .containervideo {
