@@ -13,7 +13,8 @@ html, body {
   position: absolute;
   left: 30px;
 }
-footer {
+.footer,
+.push {
   text-align: center;
   vertical-align: text-bottom;
 }
