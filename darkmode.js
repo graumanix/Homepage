@@ -10,6 +10,7 @@ let dark = false;
             document.querySelector('#dark').className = "btn btn-light right";
             document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-dark bg-dark";
             document.querySelector('#footer').style.backgroundColor = "rgb(30, 30, 40)";
+            document.querySelector('#footer').style.color = "white"
             document.querySelector('.item').style.backgroundColor = "rgb(50, 50, 60)";
             dark = true;
         }
