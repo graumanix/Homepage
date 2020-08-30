@@ -1,23 +1,6 @@
 document.querySelector('#dark').onclick = function() 
 {
-    dark = localStorage.getItem("dark");
-
-    if(dark == null)
-    {
-        dark = true;
-    }
-    else if(dark == true)
-    {
-        dark = false;
-    }
-    else if(dark == false)
-    {
-        dark = true;
-    }
-}
-document.querySelector('#dark').onclick = function() 
-{
-    if (dark == false)
+    if (dark == false || dark == null)
     {
         document.querySelector('#dark').className = "btn btn-light right";
         document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-dark bg-dark";
@@ -43,4 +26,6 @@ function swapsheet(sheet)
     localStorage.setItem("sheet", sheet);
 }
 
-window.onload = _ => swapsheet(localStorage.getItem("sheet") || "default.css");
+window.onload = _ => 
+swapsheet(localStorage.getItem("sheet") || "default.css");
+dark = localStorage.getItem("dark");
