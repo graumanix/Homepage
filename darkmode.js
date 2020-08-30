@@ -5,13 +5,13 @@ function swapcss()
 {
     if (dark == false)
     {
-        document.getElementById('theme').setAttribute('href', darkmode.css);
+        document.getElementById('theme').setAttribute('href', 'darkmode.css');
         localStorage.setItem("sheet", darkmode.css);
         dark = true;
     }
     else
     {
-        document.getElementById('theme').setAttribute('href', light.css);
+        document.getElementById('theme').setAttribute('href', 'light.css');
         localStorage.setItem("sheet", light.css);
         dark = false;
     }
