@@ -2,6 +2,7 @@ let dark;
 
 document.querySelector('#dark').onclick = function() 
 {
+    /* Checks the value of dark every click, to know wich theme changes need to be made */
     if (dark == "1")
     {
         document.querySelector('#dark').className = "btn btn-light right";
@@ -20,6 +21,7 @@ document.querySelector('#dark').onclick = function()
         sessionStorage.setItem("dark", "1");
         dark = sessionStorage.getItem("dark");
     }
+    /* If ther's no dark value it creates the first one and set everything to light, being the standard theme*/
     else
     {
         document.querySelector('#dark').className = "btn btn-light right";
@@ -31,10 +33,12 @@ document.querySelector('#dark').onclick = function()
     }
 }
 
+/* Swaps the style sheet with the in-session saved previous one  when loading new page */
 function swapsheet(sheet)
 {
     document.getElementById('theme').setAttribute('href', sheet);
     sessionStorage.setItem("sheet", sheet);
+    /* Recovers the dark string and checks it to change the barnav to the theme*/
     dark = sessionStorage.getItem("dark");
     if (dark == "0")
     {
@@ -47,7 +51,7 @@ function swapsheet(sheet)
         document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-light bg-light";
     }
 }
-
+/* Checks for previous sheetstyle saved if null set to light*/
 if (sessionStorage.getItem("sheet") == null)
 {
     sessionStorage.setItem("sheet", "light.css");
