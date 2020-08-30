@@ -1,5 +1,6 @@
 body {
   display: inline-flex;
+  flex-direction: column;
   background-color: rgb(240,240,240);
 }
 html, body {
