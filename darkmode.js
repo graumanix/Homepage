@@ -9,6 +9,7 @@ let dark = false;
             document.querySelector('#dark').innerHTML = "Light";
             document.querySelector('#dark').className = "btn btn-light right"
             document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-dark bg-dark"
+            document.querySelector('item').backgroundColor = "rgb(200,200,200)"
             dark = true;
         }
         else
