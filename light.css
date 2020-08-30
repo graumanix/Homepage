@@ -16,6 +16,11 @@ em {
 .containerbody {
   flex: 2 0 auto;
 }
+.containerimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .containervideo {
   display: flex;
   align-items: center;
