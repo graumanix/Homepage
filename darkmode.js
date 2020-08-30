@@ -24,6 +24,7 @@ document.querySelector('#dark').onclick = function()
         document.getElementById('theme').setAttribute('href', 'darkmode.css');
         localStorage.setItem("sheet", 'darkmode.css');
         localStorage.setItem("dark", "0");
+        dark = localStorage.getItem("dark");
     }
 }
 
