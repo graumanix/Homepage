@@ -28,5 +28,6 @@ html, body {
   flex-shrink: 0;
 }
 .footer {
+  color: gray;
   background-color: rgb(180, 180, 190);
 }
