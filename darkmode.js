@@ -47,6 +47,6 @@ function swapsheet(sheet)
         document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-light bg-light";
     }
 }
-
+sessionStorage.setItem("sheet", "light.css");
 window.onload = _ => swapsheet(sessionStorage.getItem("sheet") || "default.css");
 
