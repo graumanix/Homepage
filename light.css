@@ -14,6 +14,7 @@ html, body {
   flex: 1 0 auto;
 }
 .containervideo {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
