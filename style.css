@@ -21,6 +21,7 @@ html, body {
   left: 30px
 }
 .container {
+  flex-direction: row;
   flex-flow: column wrap;
   justify-content: flex-start
 }
