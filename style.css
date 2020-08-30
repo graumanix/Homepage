@@ -20,5 +20,6 @@ html, body {
   text-align: center;
   vertical-align: text-bottom;
   height: 50px;
+  margin-top: -25px;
   background-color: aqua;
 }
