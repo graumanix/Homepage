@@ -13,11 +13,11 @@ html, body {
 }
 .containerbody {
   flex-basis: 100%;
-  flex: 1 0 auto
+  flex: 1 0 3
   
 }
 .containervideo {
-  flex-basis: auto;
+  flex-basis: 2;
 }
 .title {
   padding: 20px;
