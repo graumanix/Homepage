@@ -6,7 +6,6 @@ html, body {
   margin: 0;
 }
 .container {
-  width: 50%;
   display: inline-flex;
   flex-wrap: wrap;
 }
