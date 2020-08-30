@@ -14,6 +14,7 @@ html, body {
   flex: 1 0 auto;
 }
 .video {
+  align-self: center;
   height: 300px;
   width: 50%;
 }
