@@ -1,7 +1,7 @@
 document.querySelector('#dark').onclick = function() 
 {
-    dark = localStorage.getItem("sheet");
-    
+    dark = localStorage.getItem("dark");
+
     if(dark == null)
     {
         dark = true;
