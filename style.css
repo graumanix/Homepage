@@ -19,4 +19,5 @@ html, body {
 .push {
   height: 50px;
   background-color: aqua;
+  text-justify: center;
 }
