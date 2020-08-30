@@ -18,22 +18,13 @@ document.querySelector('#dark').onclick = function()
         dark = true;
         localStorage.setItem("dark", dark);
     }
-    else
-    {
-        document.querySelector('#dark').className = "btn btn-light right";
-        document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-dark bg-dark";
-        document.getElementById('theme').setAttribute('href', 'darkmode.css');
-        localStorage.setItem("sheet", 'darkmode.css');
-        dark = false;
-        localStorage.setItem("dark", dark);
-    }
 }
 
 function swapsheet(sheet)
 {
     document.getElementById('theme').setAttribute('href', sheet);
     localStorage.setItem("sheet", sheet);
-    localStorage.getItem("dark");
+    dark = localStorage.getItem("dark");
 
     if (dark == true)
     {
@@ -41,11 +32,6 @@ function swapsheet(sheet)
         document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-dark bg-dark";
     }
     else if (dark == false)
-    {
-        document.querySelector('#dark').className = "btn btn-dark right";
-        document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-light bg-light";
-    }
-    else
     {
         document.querySelector('#dark').className = "btn btn-dark right";
         document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-light bg-light";
