@@ -8,11 +8,10 @@ html, body {
 .container {
   display: inline-flex;
   flex-wrap: wrap;
-  padding: 10px;
 }
 .item {
   text-align: justify;
-  text-emphasis: padd;
+  padding: 10px;
   background-color: gray;
 }
 .wrapper {
