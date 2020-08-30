@@ -12,12 +12,12 @@ html, body {
 .containerbody {
   display: inline-flex;
   flex-wrap: wrap;
+  box-sizing: content-box;
 }
 .title {
   padding: 20px;
 }
 .item {
-  flex-grow: 2;
   text-align: justify;
   padding: 20px;
   background-color: rgb(220, 220, 220);
