@@ -1,3 +1,4 @@
+let dark;
 
 document.querySelector('#dark').onclick = function() 
 {
