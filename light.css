@@ -18,8 +18,7 @@ em {
 }
 .containerimg {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 .containervideo {
   display: flex;
