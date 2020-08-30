@@ -1,9 +1,9 @@
 body {
+  display: flex;
   background-color: rgb(240,240,240);
 }
 html, body {
   height: 100%;
-  margin: 0;
 }
 .containertitle {
   display: inline-flex;
@@ -29,6 +29,7 @@ html, body {
 .footer,
 .push {
   text-align: center;
+  flex-shrink: 0;
   line-height: 80px;
   height: 80px;
   background-color: rgb(180, 180, 180);
