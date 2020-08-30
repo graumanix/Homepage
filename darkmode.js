@@ -1,6 +1,6 @@
 let dark = false;
     let body = document.querySelector('body');
-    let footer = document.querySelector('#footer');
+    let footer = document.querySelector('footer');
 
     document.querySelector('#dark').onclick = function() {
         if (dark == false)
