@@ -1,7 +1,7 @@
 let dark = false;
 let body = document.querySelector('body');
   
-function swapcss() 
+document.querySelector('#dark').onclick = function() 
 {
     if (dark == false)
     {
@@ -16,8 +16,3 @@ function swapcss()
         dark = false;
     }
 }
-
-document.querySelector('#dark').onclick = swapcss();
-
-window.onload = _ =>
- swapcss();
