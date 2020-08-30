@@ -11,7 +11,7 @@ let dark = false;
             document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-dark bg-dark";
             document.querySelector('#footer').style.backgroundColor = "rgb(30, 30, 40)";
             items = document.querySelector('.item');
-            for (var i = 0; i < elements.length; i++) 
+            for (var i = 0; i < items.length; i++) 
             {
                 items[i].style.backgroundColor="rgb(50, 50, 60)";
             }
@@ -26,7 +26,7 @@ let dark = false;
             document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-light bg-light"
             document.querySelector('#footer').style.backgroundColor = "rgb(180, 180, 190)";
             items = document.querySelector('.item');
-            for (var i = 0; i < elements.length; i++) 
+            for (var i = 0; i < items.length; i++) 
             {
                 items[i].style.backgroundColor="rgb(220, 220, 230)";
             }
