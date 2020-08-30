@@ -29,6 +29,6 @@ html, body {
 .push {
   text-align: center;
   vertical-align: text-bottom;
-  height: 40px;
+  height: 80px;
   background-color: aqua;
 }
