@@ -33,10 +33,6 @@ function swapsheet(sheet)
 {
     document.getElementById('theme').setAttribute('href', sheet);
     localStorage.setItem("sheet", sheet);
-}
-
-window.onload = _ => swapsheet(localStorage.getItem("sheet") || "default.css");
-window.onload = _ => function() {
     localStorage.getItem("dark");
 
     if (dark == true)
@@ -49,4 +45,7 @@ window.onload = _ => function() {
         document.querySelector('#dark').className = "btn btn-dark right";
         document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-light bg-light";
     }
-};
+}
+
+window.onload = _ => swapsheet(localStorage.getItem("sheet") || "default.css");
+
