@@ -1,6 +1,7 @@
 
 document.querySelector('#dark').onclick = function() 
 {
+    dark = document.localStorage.getItem("dark");
     if (dark == false)
     {
         document.querySelector('#dark').className = "btn btn-light right";
