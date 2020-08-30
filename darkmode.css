@@ -14,6 +14,7 @@ html, body {
 }
 .containervideo {
   display: inline-flex;
+  flex: 1 0 auto
 }
 .title {
   padding: 20px;
