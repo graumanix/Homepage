@@ -31,7 +31,5 @@ html, body {
 .push {
   text-align: center;
   flex-shrink: 0;
-  line-height: 80px;
-  height: 80px;
   background-color: rgb(180, 180, 180);
 }
