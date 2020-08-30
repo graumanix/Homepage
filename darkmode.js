@@ -17,9 +17,13 @@ document.querySelector('#dark').onclick = function()
     }
 }
 
-window.onload = _ => function()
+function swapsheet(sheet)
 {
-    let sheet = localStorage.getItem("sheet") || "default.css"
     document.getElementById('theme').setAttribute('href', sheet);
     localStorage.setItem("sheet", sheet);
 }
+
+window.onload = _ =>
+ swapStyleSheet(
+  localStorage.getItem("sheet") || "default.css"
+ );
