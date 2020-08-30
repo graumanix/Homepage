@@ -24,6 +24,6 @@ function swapsheet(sheet)
 }
 
 window.onload = _ =>
- swapStyleSheet(
+ swapsheet(
   localStorage.getItem("sheet") || "default.css"
  );
