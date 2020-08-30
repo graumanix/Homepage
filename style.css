@@ -15,7 +15,6 @@ html, body {
   flex-wrap: wrap;
 }
 .title {
-  text-align: justify;
   padding: 20px;
 }
 .item {
