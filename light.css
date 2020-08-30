@@ -26,8 +26,7 @@ iframe {
   background-color: rgb(220, 220, 230);
   color:black;
 }
-.footer,
-.push {
+.footer {
   text-align: center;
   height: 50px;
   line-height: 50px;
