@@ -4,7 +4,7 @@ body {
   background-color: rgb(240,240,240);
 }
 .container {
-  display: flex;
+  display: inline-flex;
   justify-content: flex-start;
   background-color: rebeccapurple;
 }
