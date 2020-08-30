@@ -20,9 +20,6 @@ em {
   flex-basis: auto;
   justify-content: center;
 }
-#valid {
-  size:50%;
-}
 .containervideo {
   display: flex;
   align-items: center;
