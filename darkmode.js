@@ -16,3 +16,10 @@ document.querySelector('#dark').onclick = function()
         dark = false;
     }
 }
+
+window.onload = _ => function()
+{}
+    document.getElementById('theme').setAttribute('href', 'darkmode.css');
+    localStorage.setItem("sheet", 'darkmode.css');
+    localStorage.getItem("sheet") || "default.css"
+ );
