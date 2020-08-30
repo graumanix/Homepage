@@ -45,6 +45,11 @@ function swapsheet(sheet)
         document.querySelector('#dark').className = "btn btn-dark right";
         document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-light bg-light";
     }
+    else
+    {
+        document.querySelector('#dark').className = "btn btn-dark right";
+        document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-light bg-light";
+    }
 }
 
 window.onload = _ => swapsheet(localStorage.getItem("sheet") || "default.css");
