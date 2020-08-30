@@ -13,8 +13,7 @@ html, body {
   flex: 1 0 auto;
 }
 .containervideo {
-  display: inline-flex;
-  flex-direction: column;
+  justify-content: center;
 }
 .title {
   padding: 20px;
