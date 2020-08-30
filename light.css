@@ -1,6 +1,6 @@
 body {
   display: inline-flex;
-  flex-direction: column-reverse;
+  align-content: center;
   background-color: rgb(240,240,250);
 }
 html, body {
