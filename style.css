@@ -15,6 +15,5 @@ html, body {
 }
 .footer,
 .push {
-  text-align: center;
-  vertical-align: text-bottom;
+  height: 50px;
 }
