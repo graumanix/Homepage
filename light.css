@@ -11,7 +11,7 @@ html, body {
   display: inline-flex;
 }
 .containerbody {
-  flex: 1 0 auto
+  flex: auto auto auto
   
 }
 .containervideo {
