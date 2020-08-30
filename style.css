@@ -29,6 +29,7 @@ html, body {
 .push {
   vertical-align: text-bottom;
   text-align: center;
+  line-height: 80px;
   height: 80px;
   background-color: aqua;
 }
