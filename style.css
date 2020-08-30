@@ -22,6 +22,7 @@ html, body {
 }
 .container {
   justify-content: space-between;
+  display: flex;
 }
 .footer,
 .push {
