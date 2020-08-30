@@ -21,8 +21,7 @@ html, body {
   left: 30px
 }
 .container {
-  display: flex;
-  flex-wrap: nowrap | wrap | wrap-reverse;
+  flex-flow: column wrap;
 }
 .footer,
 .push {
