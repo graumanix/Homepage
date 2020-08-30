@@ -20,10 +20,6 @@ html, body {
   padding: 20px;
   background-color: rgb(220, 220, 220);
 }
-.wrapper {
-  min-height: 100%;
-  margin-bottom: -80px;
-}
 .footer,
 .push {
   text-align: center;
