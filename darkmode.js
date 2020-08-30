@@ -18,15 +18,6 @@ document.querySelector('#dark').onclick = function()
         dark = true;
         localStorage.setItem("dark", false);
     }
-    else
-    {
-        document.querySelector('#dark').className = "btn btn-light right";
-        document.querySelector('#nav').className = "navbar navbar-expand-lg navbar-dark bg-dark";
-        document.getElementById('theme').setAttribute('href', 'darkmode.css');
-        localStorage.setItem("sheet", 'darkmode.css');
-        dark = false;
-        localStorage.setItem("dark", true);
-    }
 }
 
 function swapsheet(sheet)
