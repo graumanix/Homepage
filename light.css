@@ -12,7 +12,7 @@ html, body {
   display: inline-flex;
 }
 .containerbody {
-  flex-grow: inherit;
+  flex-grow: 100%;
   flex-shrink: inherit;
   
 }
