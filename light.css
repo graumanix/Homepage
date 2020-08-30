@@ -25,6 +25,9 @@ em {
   align-items: center;
   justify-content: center;
 }
+#valid {
+  text-align: center;
+}
 .video {
   display: block;
   height: 300px;
