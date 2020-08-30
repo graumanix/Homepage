@@ -23,7 +23,7 @@ html, body {
 }
 .wrapper {
   min-height: 100%;
-  margin-bottom: -50px;
+  margin-bottom: -80px;
 }
 .footer,
 .push {
@@ -31,6 +31,5 @@ html, body {
   text-align: center;
   line-height: 80px;
   height: 80px;
-  margin-top: -80px;
   background-color: rgb(180, 180, 180);
 }
