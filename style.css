@@ -22,7 +22,6 @@ html, body {
 }
 .container {
   flex-direction: row;
-  flex-flow: column wrap;
   justify-content: flex-start
 }
 .footer,
