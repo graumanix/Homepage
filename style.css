@@ -22,8 +22,7 @@ body {
   left: 30px
 }
 .container {
-  display: flex;
-  align-content: space-evenly;
+  flex-flow: column;
 }
 .footer,
 .push {
