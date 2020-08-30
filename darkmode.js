@@ -12,6 +12,7 @@ let dark = false;
             document.querySelector('.footer').style.color = "rgb(200, 200, 210)";
             document.querySelector('.item').style.backgroundColor = "rgb(50, 50, 60)";
             document.querySelector('.item').style.color = "white";
+            document.querySelector('.title').style.color = "white";
             dark = true;
         }
         else
@@ -24,6 +25,7 @@ let dark = false;
             document.querySelector('.footer').style.color = "gray";
             document.querySelector('.item').style.backgroundColor = "rgb(220, 220, 230)";
             document.querySelector('.item').style.color = "black";
+            document.querySelector('.title').style.color = "black";
             dark = false;
         }
     }
