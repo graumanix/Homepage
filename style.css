@@ -7,7 +7,7 @@ html, body {
   height: 100%;
 }
 .containertitle {
-  flex: auto
+  display: inline-flex;
 }
 .containerbody {
   flex: 1 0 auto
