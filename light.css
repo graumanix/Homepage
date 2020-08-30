@@ -10,7 +10,6 @@ html, body {
 }
 .containertitle {
   display: inline-flex;
-  flex-shrink: 0;
 }
 .containerbody {
   flex: 1 0 100%;
