@@ -8,10 +8,10 @@ html, body {
   height: 100%;
 }
 .containertitle {
-  flex: 1 0 auto;
+  display: inline-flex;
 }
 .containerbody {
-  flex: 1 0 auto
+  flex: 1 0 1
 }
 .containervideo {
   flex-basis: auto;
