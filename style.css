@@ -11,7 +11,7 @@ html, body {
 }
 .item {
   text-align: justify;
-  padding: 10px;
+  padding: 20px;
   background-color: gray;
 }
 .wrapper {
