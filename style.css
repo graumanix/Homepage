@@ -10,6 +10,7 @@ html, body {
   flex-wrap: wrap;
 }
 .item {
+  text-align: justify;
   background-color: gray;
 }
 .wrapper {
@@ -20,7 +21,7 @@ html, body {
 .push {
   text-align: center;
   vertical-align: text-bottom;
-  height: 25px;
+  height: 40px;
   margin-top: 0px;
   background-color: aqua;
 }
