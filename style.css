@@ -1,7 +1,6 @@
 body {
   display: inline-flex;
   flex-direction: column;
-  background-color: rgb(240,240,250);
 }
 html, body {
   height: 100%;
@@ -14,12 +13,10 @@ html, body {
 }
 .title {
   padding: 20px;
-  color: black;
 }
 .item {
   text-align: justify;
   padding: 20px;
-  background-color: rgb(220, 220, 230);
 }
 .footer,
 .push {
@@ -30,5 +27,4 @@ html, body {
 }
 .footer {
   color: gray;
-  background-color: rgb(180, 180, 190);
 }
