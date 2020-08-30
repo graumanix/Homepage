@@ -23,7 +23,7 @@ html, body {
 }
 .wrapper {
   min-height: 100%;
-  margin-bottom: -50px;
+  margin-bottom: -10px;
 }
 .footer,
 .push {
