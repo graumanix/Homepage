@@ -1,7 +1,11 @@
 .pagetitle {
-    display: flex;
-    justify-content:flex-end;
-    align-items:center;
-    position: absolute;
-    left: 10px;
-  }
+  font-display: flex;
+  justify-content:flex-end;
+  align-items:center;
+  position: absolute;
+  left: 30px;
+}
+footer {
+  text-align: center;
+  font-display: flex;
+}
