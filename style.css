@@ -11,6 +11,7 @@ html, body {
 }
 .item {
   text-align: justify;
+  text-emphasis: padd;
   background-color: gray;
 }
 .wrapper {
