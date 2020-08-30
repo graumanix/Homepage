@@ -13,8 +13,7 @@ html, body {
   flex-shrink: 0;
 }
 .containerbody {
-  flex-basis: 100%;
-  flex: 1 0 auto;
+  flex: 1 0 100%;
   
 }
 .containervideo {
