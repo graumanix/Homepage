@@ -28,3 +28,6 @@ html, body {
   flex-shrink: 0;
   background-color: rgb(180, 180, 180);
 }
+button {
+  height: 20px;
+}
