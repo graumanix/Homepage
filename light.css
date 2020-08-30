@@ -12,8 +12,8 @@ html, body {
 .containerbody {
   flex: 1 0 auto
 }
-.containervideo {
-  justify-content: center;
+iframe {
+  height: 100%;
 }
 .title {
   padding: 20px;
@@ -35,7 +35,4 @@ html, body {
 .footer {
   color: rgb(40, 40, 50);
   background-color: rgb(180, 180, 190);
-}
-iframe {
-
 }
