@@ -27,3 +27,6 @@ html, body {
   line-height: 50px;
   flex-shrink: 0;
 }
+.footer {
+  background-color: rgb(180, 180, 190);
+}
