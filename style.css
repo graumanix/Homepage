@@ -21,7 +21,8 @@ html, body {
   left: 30px
 }
 .container {
-  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start
 }
 .footer,
 .push {
