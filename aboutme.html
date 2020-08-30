@@ -4,6 +4,7 @@
     <head>
         <title>Gerard Marquez's Homepage.</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
@@ -11,42 +12,51 @@
     <body>
         <!-- Creates header navbar from Bootstrap-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
-          <a class="navbar-brand" href="index.html">Gerard Marquez's Homepage</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Pages
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="aboutme.html">About Gerard</a>
-                  <a class="dropdown-item" href="CS50.html">Experience in CS50x</a>
-                  <a class="dropdown-item" href="greatcontent.html">Awesome content</a>
-                </div>
-              <li class="nav-item">
-                <li class="nav-item">
-                  <a class="nav-link" href="https://github.com/graumanix">Github profile</a>
+            <a class="navbar-brand" href="index.html">Gerard Marquez's Homepage</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-              </li>
-              <!-- Adds Dark mode button that calls darkmode.js-->
-              <li class="nav-item"></li>
-                <button type="button" class="btn btn-dark my-2 my-sm-0" id="dark">Dark</button>
-                <script src="darkmode.js"></script>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <!-- Finishes navbar from Bootstrap-->
-        GERARD
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Pages
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="aboutme.html">About Gerard</a>
+                    <a class="dropdown-item" href="CS50.html">Experience in CS50x</a>
+                    <a class="dropdown-item" href="greatcontent.html">Awesome content</a>
+                  </div>
+                <li class="nav-item">
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/graumanix">Github profile</a>
+                  </li>
+                </li>
+                <!-- Adds Dark mode button that calls darkmode.js-->
+                <li class="nav-item"></li>
+                  <button type="button" class="btn btn-dark" id="dark">Dark</button>
+                  <script src="darkmode.js"></script>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- Finishes navbar from Bootstrap-->
+      <div class="containertitle">
+        <h1 class="title">About Gerard Marquez</h1>
+      </div>
+      <div class="containerbody">
+        <div class="item">
+          "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms
+          of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through 
+          shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power 
+          of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
+        </div>
+      </div>
+      <footer class="footer">
+          Project made for CS50x's Introduction to computer science.
+      </footer>
     </body>
-    <footer>
-        Project made for CS50x's Introduction to computer science.
-    </footer>
 </html>
