@@ -7,13 +7,10 @@ html, body {
   height: 100%;
 }
 .containertitle {
-  display: inline-flex;
-  flex-wrap: wrap;
+  flex: 1 0 auto
 }
 .containerbody {
-  display: inline-flex;
-  flex-wrap: wrap;
-  box-sizing: content-box;
+  flex: 1 0 auto
 }
 .title {
   padding: 20px;
