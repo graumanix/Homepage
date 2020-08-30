@@ -25,8 +25,8 @@ em {
   align-items: center;
   justify-content: center;
 }
-#valid {
-  flex-basis:50%;
+img {
+  flex-basis: 50%;
 }
 .video {
   display: block;
