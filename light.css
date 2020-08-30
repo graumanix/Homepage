@@ -12,12 +12,16 @@ html, body {
 .containerbody {
   flex: 1 0 auto
 }
+.containervideo {
+  flex-basis: auto;
+}
 .title {
   padding: 20px;
   color:black;
 }
 .item {
   text-align: justify;
+  ;
   padding: 20px;
   background-color: rgb(220, 220, 230);
   color:black;
