@@ -14,8 +14,8 @@ html, body {
   flex: 1 0 auto;
 }
 .video {
-  height: 100px;
-  width: 50%;
+  height: 200px;
+  width: 75%;
 }
 
 .title {
