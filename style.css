@@ -13,6 +13,13 @@ html, body {
   position: absolute;
   left: 30px;
 }
+.paragraph {
+  font-display: flex;
+  justify-content:flex-end;
+  align-items:center;
+  position: absolute;
+  left: 30px
+}
 .footer,
 .push {
   height: 50px;
