@@ -1,7 +1,6 @@
 body {
   display: inline-flex;
-  flex-flow: column wrap;
-  align-content: center;
+  flex-flow: column;
   background-color: rgb(240,240,250);
 }
 html, body {
@@ -14,6 +13,7 @@ html, body {
 .containerbody {
   flex: 1 0 auto;
 }
+
 .title {
   padding: 20px;
   color:black;
