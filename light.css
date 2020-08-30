@@ -13,6 +13,10 @@ html, body {
 .containerbody {
   flex: 1 0 auto;
 }
+.containervideo {
+  align-items: center;
+  justify-content: center;
+}
 .video {
   display: block;
   height: 300px;
