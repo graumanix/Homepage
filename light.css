@@ -12,13 +12,7 @@ html, body {
   display: inline-flex;
 }
 .containerbody {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
-  
-}
-.containervideo {
- 
+  flex: 1 0 auto;
 }
 .title {
   padding: 20px;
