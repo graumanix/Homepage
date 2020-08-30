@@ -12,7 +12,8 @@ html, body {
   display: inline-flex;
 }
 .containerbody {
-  flex: 1 0 100%;
+  flex-grow: inherit;
+  flex-shrink: inherit;
   
 }
 .containervideo {
