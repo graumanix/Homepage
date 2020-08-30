@@ -13,8 +13,9 @@ html, body {
 .containerbody {
   flex: 1 0 auto;
 }
-iframe {
-  justify-content: center;
+.video {
+  align-self: center;
+  size: 100%;
 }
 
 .title {
