@@ -17,7 +17,8 @@ em {
   flex: 2 0 auto;
 }
 #homephoto {
-  display: flex;
+  text-align: justify;
+  padding: 20px;
 }
 .containervideo {
   display: flex;
