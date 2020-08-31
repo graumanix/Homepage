@@ -50,4 +50,10 @@ em {
   color: rgb(40, 40, 50);
   background-color: rgb(180, 180, 190);
 }
+#parent {
+  width: 100%;
+}
+#child {
+  width:inherit;
+}
 
