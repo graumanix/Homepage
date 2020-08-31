@@ -36,11 +36,10 @@ em {
   color:black;
 }
 .itemimg {
+  align-content: center;
   max-width: 50%;
-  align-items: center;
-  text-align: justify;
   background-color: rgb(220, 220, 230);
-  color:black;
+  
 }
 .footer {
   text-align: center;
