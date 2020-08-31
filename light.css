@@ -14,7 +14,7 @@ em {
   display: inline-flex;
 }
 .containerbody {
-  flex: 2 0 auto;
+  flex: 1 0 auto;
 }
 #homephoto {
   padding: 0px;
