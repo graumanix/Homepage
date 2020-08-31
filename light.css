@@ -51,4 +51,6 @@ em {
 #child {
   width:inherit;
 }
-
+iframe {
+  frameborder:"0";
+}

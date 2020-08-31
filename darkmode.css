@@ -46,3 +46,6 @@ html, body {
 #child {
   width:inherit;
 }
+iframe {
+  frameborder:"0";
+}
