@@ -36,6 +36,7 @@ em {
   color:black;
 }
 .itemimg {
+  width: inherit;
   background-color: rgb(220, 220, 230);
   
 }
