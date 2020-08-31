@@ -36,6 +36,7 @@ em {
   color:black;
 }
 .itemimg {
+  max-width: 100%;
   align-items: center;
   text-align: justify;
   background-color: rgb(220, 220, 230);
