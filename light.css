@@ -17,7 +17,7 @@ em {
   flex: 2 0 auto;
 }
 #homephoto {
-  display: flex;
+  padding: 0px;
 }
 .containervideo {
   display: flex;
@@ -32,6 +32,12 @@ em {
   align-items: center;
   text-align: justify;
   padding: 20px;
+  background-color: rgb(220, 220, 230);
+  color:black;
+}
+.itemimg {
+  align-items: center;
+  text-align: justify;
   background-color: rgb(220, 220, 230);
   color:black;
 }
