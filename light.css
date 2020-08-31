@@ -18,7 +18,6 @@ em {
 }
 #homephoto {
   display: flex;
-  height: 50%;
 }
 .containervideo {
   display: flex;
