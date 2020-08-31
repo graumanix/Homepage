@@ -18,6 +18,7 @@ em {
 }
 #homephoto {
   display: flex;
+  flex-shrink: inherit;
 }
 .containervideo {
   display: flex;
