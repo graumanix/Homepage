@@ -16,6 +16,9 @@ em {
 .containerbody {
   flex: 2 0 auto;
 }
+#homephoto {
+  flex: 2 0 auto;
+}
 .containervideo {
   display: flex;
   align-items: center;
